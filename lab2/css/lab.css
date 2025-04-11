@@ -5,16 +5,20 @@
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #E0218A;
+    background-color: #DDD8C4;
   }
 
   h1 {
-    color: #FFB6C1;
+    color: #E0218A;
     font-size: 300%;
-
   }
 
   p {
     text-indent: 50px;
+  }
 
+  #content {
+    color: #E0218A;
+    font-family: cursive;
+    border: solid 5px #FFFFFF;
   }

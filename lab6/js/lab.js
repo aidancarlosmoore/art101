@@ -3,7 +3,7 @@
 // Date: 23 April 2025
 
 // Creating an array with the modes of transporation I use
-let myTransport = ["My Car ", "Bus ", "Friend's Car ", "Lyft ", "Bike ", "Walking "]
+let myTransport = ["My Car", " Bus", " Friend's Car", " Lyft", " Bike", " Walking"]
 
 // Creating an object storing the data of my car, my main mode of transportation
 let myMainRide = { 

@@ -16,6 +16,7 @@ function slayExponents (x) {
 
 // Setting up the array
 let slayNumbers = [2, 4, 6, 7, 8, 9, 12];
+console.log("Numbers: ", slayNumbers);
 
 // Creating a variable that is linked to the map of the array to the multiplication function, then logging it in console
 let slayMultiplicationDisplay = slayNumbers.map(slayMultiplication)

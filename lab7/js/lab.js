@@ -8,7 +8,7 @@ function getPlayerName() {
   console.log("User's name: ", userName);
 
   // TASK X: BONUS! This puts the player's name in lowercase so it can be sorted correctly
-  let userNameCapitalizated = userName.toLowerCase()
+  let userNameCapitalized = userName.toLowerCase();
   console.log("User's name without capital letters: ", userName);
   
   // This splits the user's name from a string into an array

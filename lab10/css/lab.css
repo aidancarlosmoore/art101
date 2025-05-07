@@ -7,3 +7,15 @@
     border: solid 5px #FFFFFF;
     background-color: #FFB6C1;
   }
+
+  .text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #FFEB94;
+    color: #0A64A5;
+    font-family: fantasy;
+    font-size: 0.8em;
+  }

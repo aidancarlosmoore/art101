@@ -6,6 +6,21 @@ $("#Challenge").append("<button id='button-challenge'>Make Special</button>");
 $("#Problems").append("<button id='button-problems'>Make Special</button>");
 $("#Results").append("<button id='button-results'>Make Special</button>");
 
+$("#button-challenge").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#Challenge").toggleClass("special");
+});
+
+$("#button-problems").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#Problems").toggleClass("special");
+});
+
+$("#button-results").click(function(){
+  // now add (or subtract) the "special" class to the section
+  $("#Results").toggleClass("special");
+});
+
 document.writeln("Hi")
 
 // Constants

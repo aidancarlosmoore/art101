@@ -2,9 +2,11 @@
 // Author: Aidan Moore
 // Date: 5/7/25
 
-$("#Challenge").append("<button id='button-challenge'>Make Special</button>").$("#Problems").append("<button id='button-challenge'>Make Special</button>").$("#Results").append("<button id='button-challenge'>Make Special</button>");
+$("#Challenge").append("<button id='button-challenge'>Make Special</button>");
+$("#Problems").append("<button id='button-problems'>Make Special</button>");
+$("#Results").append("<button id='button-results'>Make Special</button>");
 
-
+document.writeln("Hi")
 
 // Constants
 

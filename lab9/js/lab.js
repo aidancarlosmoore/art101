@@ -10,7 +10,7 @@ $("#Results").append("<button class='sillify' data-name='Results'>Sillify</butto
 
 // This function uses the Sillify class to change each element of that class
 $(".sillify").click(function(){
-  let name = $(this).parent()
+  let name = $(this).parent();
   $("#" + name).toggleClass("sillify");
 
 })

@@ -7,3 +7,10 @@
     border: solid 5px #FFFFFF;
     background-color: #FFB6C1;
   }
+
+.special {
+  background-color: purple;
+  border: dashed 40px plum;
+  color: palevioletred;
+  font-weight: bolder;
+}

@@ -2,24 +2,18 @@
 // Author: Aidan Moore
 // Date: 5/7/25
 
-$("#Challenge").append("<button id='button-challenge'>Make Special</button>");
-$("#Problems").append("<button id='button-problems'>Make Special</button>");
-$("#Results").append("<button id='button-results'>Make Special</button>");
+// Creating a button class called sillify and assigning each button to that class
+$("#Challenge").append("<button class='sillify' data-name='Challenge'>Sillify</button>");
+$("#Problems").append("<button class='sillify' data-name='Problems'>Sillify</button>");
+$("#Reflection").append("<button class='sillify' data-name='Reflection'>Sillify</button>");
+$("#Results").append("<button class='sillify' data-name='Results'>Sillify</button>");
 
-$("#button-challenge").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#Challenge").toggleClass("special");
-});
+// This function uses the Sillify class to change each element of that class
+$(".sillify").click(function(){
+  let name = $(this).parent()
+  $("#" + name).toggleClass("sillify");
 
-$("#button-problems").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#Problems").toggleClass("special");
-});
-
-$("#button-results").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#Results").toggleClass("special");
-});
+})
 
 document.writeln("Hi")
 

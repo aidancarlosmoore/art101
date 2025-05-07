@@ -1,6 +1,10 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Lab 9: Libraries and jQuery
+// Author: Aidan Moore
+// Date: 5/7/25
+
+$("#Challenge").append("<button id='button-challenge'>Make Special</button>").$("#Problems").append("<button id='button-challenge'>Make Special</button>").$("#Results").append("<button id='button-challenge'>Make Special</button>");
+
+
 
 // Constants
 

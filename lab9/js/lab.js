@@ -9,10 +9,10 @@ $("#Reflection").append("<button class='sillify' data-name='Reflection'>Sillify<
 $("#Results").append("<button class='sillify' data-name='Results'>Sillify</button>");
 
 // This function uses the Sillify class to change each element of that class
+// It accesses the parent of each section, aka the box the button is in, and changes its class
 $(".sillify").click(function(){
-  let name = $(this).parent();
+  let name = $(this).parent().attr("id")
   $("#" + name).toggleClass("sillify");
-
 })
 
 document.writeln("Hi")

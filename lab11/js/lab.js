@@ -30,16 +30,17 @@ function getPlayerName() {
 
 // This creates a button that can be clicked.
 $("#submit").click(function(){
+  // This assigns a variable to the inputted value by the user.
+  const slayName = $("#slay-name").val();
+
+  // This creates a variable so that when it is called, it will call the getPlayerName function and sort the slay-name id.
+  let slayNameSorted = getPlayerName(slayName);
+
+  // This adds a new section to the "output" on the HTML file.
+  $("#output").html('<div class="text"><p>' + slayNameSorted + '</p></div>');
+
 });
 
-// This assigns a variable to the inputted value by the user.
-const slayName = $("#slay-name").val();
-
-// This creates a variable so that when it is called, it will call the getPlayerName function and sort the slay-name id.
-let slayNameSorted = getPlayerName(slayName);
-
-// This adds a new section to the "output" on the HTML file.
-$("#output").html('<div class="text"><p>' + slayNameSorted + '</p></div>');
 
 
 // Constants

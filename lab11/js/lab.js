@@ -4,27 +4,27 @@
 
 function getPlayerName() {
   // This has the player write enter their name and gives a default value in case they put nothing
-  // let userName = window.prompt("Please enter your name.", "Spencer Hastings");
-  // console.log("User's name: ", userName);
+  let userName = window.prompt("Please enter your name.", "Spencer Hastings");
+  console.log("User's name: ", userName);
 
   // TASK X: BONUS! This puts the player's name in lowercase so it can be sorted correctly
-  let slayNameCapitalized = slayName.toLowerCase();
-  console.log("User's name without capital letters: ", slayName);
+  let userNameCapitalized = userName.toLowerCase();
+  console.log("User's name without capital letters: ", userName);
   
   // This splits the user's name from a string into an array
-  let slayNameArray = slayNameCapitalized.split("");
-  console.log("User's name as an array: ", slayNameArray);
+  let userNameArray = userNameCapitalized.split("");
+  console.log("User's name as an array: ", userNameArray);
   
   // Now that it's an array, the user's name can be sorted
-  let slayNameArraySorted = slayNameArray.sort();
-  console.log("User's name in a sorted array: ", slayNameArraySorted);
+  let userNameArraySorted = userNameArray.sort();
+  console.log("User's name in a sorted array: ", userNameArraySorted);
 
   // This joins back the sorted array back into a string in alphabetical order
-  let slayNameSorted = slayNameArraySorted.join("");
-  console.log("User's name sorted in string form: ", slayNameSorted);
+  let userNameSorted = userNameArraySorted.join("");
+  console.log("User's name sorted in string form: ", userNameSorted);
 
   // This retuns the player's sorted name so it can be displayed
-  return slayNameSorted;
+  return userNameSorted;
 
 }
 

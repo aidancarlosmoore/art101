@@ -2,6 +2,7 @@
 // Author: Aidan Moore
 // Date: 5/18/25
 
+// This imports a function from Lab 7 to be re-purposed.
 function getPlayerName() {
   // This has the player write enter their name and gives a default value in case they put nothing
   let userName = window.prompt("Please enter your name.", "Spencer Hastings");

@@ -3,10 +3,6 @@
 // Date: 5/18/25
 
 function getPlayerName() {
-  // This has the player write enter their name and gives a default value in case they put nothing
-  let userName = window.prompt("Please enter your name.", "Spencer Hastings");
-  console.log("User's name: ", userName);
-
   // TASK X: BONUS! This puts the player's name in lowercase so it can be sorted correctly
   let userNameCapitalized = userName.toLowerCase();
   console.log("User's name without capital letters: ", userName);

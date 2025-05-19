@@ -30,7 +30,7 @@ function getPlayerName() {
 }
 
 // This creates a button that can be clicked.
-$("#submit").click(function(){
+$("#sashay-away").click(function(){
   // This assigns a variable to the inputted value by the user.
   const slayName = $("#slay-name").val();
 

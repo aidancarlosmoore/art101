@@ -5,7 +5,7 @@
 // This function loops through the numbers 1-200
 function FizzBuzz() {
   oneLongString = ""
-  for (let i=1; i<200; i++) {
+  for (let i=1; i<201; i++) {
     if ((i % 3 == 0) && (i % 5 == 0) && (i % 7 == 0)) {
       oneLongString += i + " FizzBuzzBoom!<br>"; 
     }

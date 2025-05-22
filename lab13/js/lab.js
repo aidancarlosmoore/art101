@@ -7,28 +7,28 @@ function FizzBuzz() {
   oneLongString = ""
   for (let i=0; i<200; i++) {
     if ((i % 3 == 0) && (i % 5 == 0) && (i % 7 == 0)) {
-      oneLongString += num + " FizzBuzzBoom!<br>"; 
+      oneLongString += i + " FizzBuzzBoom!<br>"; 
     }
     else if ((i % 3 == 0) && (i % 5 == 0)) {
-      oneLongString += num + " FizzBuzz!<br>"; 
+      oneLongString += i + " FizzBuzz!<br>"; 
     }
     else if ((i % 3 == 0) && (i % 7 == 0)) {
-      oneLongString += num + " FizzBoom!<br>"; 
+      oneLongString += i + " FizzBoom!<br>"; 
     }
     else if ((i % 5 == 0) && (i % 7 == 0)) {
-      oneLongString += num + " BuzzBoom!<br>"; 
+      oneLongString += i + " BuzzBoom!<br>"; 
     }
     else if (i % 3 == 0) {
-      oneLongString += num + " Fizz!<br>"; 
+      oneLongString += i + " Fizz!<br>"; 
     }
     else if (i % 5 == 0) {
-      oneLongString += num + " Buzz!<br>"; 
+      oneLongString += i + " Buzz!<br>"; 
     }
     else if (i % 7 == 0) {
-      oneLongString += num + " Boom!<br>"; 
+      oneLongString += i + " Boom!<br>"; 
     }
     else {
-      oneLongString += num + "<br>"; 
+      oneLongString += i + "<br>"; 
     }
   }
   console.log(oneLongString)

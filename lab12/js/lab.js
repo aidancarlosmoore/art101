@@ -40,7 +40,7 @@ $("#button").click(function() {
   let house = sortingHat(name);
   console.log(house);
   // Prints the user's sorting message in the output section of the HTML webpage.
-  $("#output").html("#house-color" + house + "#house-color");
+  $("#output").html("house-color" + house + "house-color");
 }); 
 
 // Constants

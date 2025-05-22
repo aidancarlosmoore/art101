@@ -34,7 +34,7 @@ function FizzBuzz() {
   return oneLongString
 }
 
-$("#output").html(oneLongString);
+$("#output").html(FizzBuzz());
 
 
 

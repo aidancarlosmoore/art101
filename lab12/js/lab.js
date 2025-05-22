@@ -28,7 +28,7 @@ $("#button").click(function() {
   let name = $("#input").val();
   console.log(name);
   let house = sortingHat(name);
-  console.log(house)
+  console.log(house);
   $("#output").html("<h1>" + house + "</h1>");
 }); 
 

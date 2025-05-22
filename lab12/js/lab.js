@@ -13,22 +13,20 @@ function sortingHat(str) {
   // Checks the possible values of the remainder one by one to sort the user into a Hogwarts house
   if (remainder == 0) {
     sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
-    document.getElementsByClassName("house-color").style.color = "red";
+    $("#output").html("<h3>" + house + "</h3>");
   }
   else if (remainder == 1) {
     sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning.";
-    document.getElementsByClassName("house-color").style.color = "red";
+    $("#output").html("<h5>" + house + "</h3>");
   }
   else if (remainder == 2) {
     sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness.";
-    document.getElementsByClassName("house-color").style.color = "red";
+    $("#output").html("<h6>" + house + "</h3>");
   }
   else if (remainder == 3) {
     sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
-    document.getElementsByClassName("house-color").style.color = "red";
+    $("#output").html("<h6>" + house + "</h3>");
   }
-  // Returns the sortingMessage regardless which house the user has been sorted into
-  return sortingMessage;
 }
 
 // This button allows the user to enter their name and get sorted into a Hogwarts house by using the sortingHat function
@@ -40,7 +38,7 @@ $("#button").click(function() {
   let house = sortingHat(name);
   console.log(house);
   // Prints the user's sorting message in the output section of the HTML webpage.
-  $("#output").html("house-color" + house + "house-color");
+  house();
 }); 
 
 // Constants

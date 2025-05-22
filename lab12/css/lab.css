@@ -8,8 +8,26 @@
     background-color: #FFB6C1;
   }
 
-.house-color {
-    color: #FF6EC7;
+h3 {
+    color: #ae0001;
     font-family:'Courier New', Courier, monospace;
-    font-size: 300%;
+    font-size: 200%;
+  }  
+
+h4 {
+    color: #2a623d;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 200%;
+  }  
+
+h5 {
+    color: #222f5b;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 200%;
+  } 
+
+h6 {
+    color: #f0c75e;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 200%;
   }  

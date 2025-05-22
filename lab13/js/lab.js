@@ -31,10 +31,10 @@ function FizzBuzz() {
       oneLongString += i + "<br>"; 
     }
   }
-  console.log(oneLongString)
-  $("#output").html(oneLongString);
+  return oneLongString
 }
 
+$("#output").html(oneLongString);
 
 
 

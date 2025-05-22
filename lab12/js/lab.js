@@ -17,15 +17,15 @@ function sortingHat(str) {
   }
   else if (remainder == 1) {
     sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning.";
-    $("#output").html("<h5>" + sortingMessage + "</h3>");
+    $("#output").html("<h5>" + sortingMessage + "</h5>");
   }
   else if (remainder == 2) {
     sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness.";
-    $("#output").html("<h6>" + sortingMessage + "</h3>");
+    $("#output").html("<h6>" + sortingMessage + "</h6>");
   }
   else if (remainder == 3) {
     sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
-    $("#output").html("<h6>" + sortingMessage + "</h3>");
+    $("#output").html("<h4>" + sortingMessage + "</h4>");
   }
 }
 

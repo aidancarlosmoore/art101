@@ -2,10 +2,10 @@
 // Author: Aidan Moore
 // Date: 5/21/25
 
-// This function takes the user's name and uses a conditional to assign a Hogwarts house based on the length of their name
+// This function loops through the numbers 1-200
 function FizzBuzz() {
   oneLongString = ""
-  for (let i=0; i<201; i++) {
+  for (let i=1; i<200; i++) {
     if ((i % 3 == 0) && (i % 5 == 0) && (i % 7 == 0)) {
       oneLongString += i + " FizzBuzzBoom!<br>"; 
     }

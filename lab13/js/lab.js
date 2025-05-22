@@ -1,4 +1,4 @@
-// index.js - Lab 133: Loops
+// index.js - Lab 13: Loops
 // Author: Aidan Moore
 // Date: 5/21/25
 
@@ -29,7 +29,8 @@ function FizzBuzz() {
     else {
       oneLongString += num + "<br>"; 
     }
-  } 
+  }
+  $("#output").html(oneLongString);
 }
 
 

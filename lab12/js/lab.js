@@ -13,15 +13,19 @@ function sortingHat(str) {
   // Checks the possible values of the remainder one by one to sort the user into a Hogwarts house
   if (remainder == 0) {
     sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
+    document.getElementById("h3").style.color = "red";
   }
   else if (remainder == 1) {
     sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning.";
+    document.getElementById("h3").style.color = "blue";
   }
   else if (remainder == 2) {
     sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness.";
+    document.getElementById("h3").style.color = "yellow";
   }
   else if (remainder == 3) {
     sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
+    document.getElementById("h3").style.color = "green";
   }
   // Returns the sortingMessage regardless which house the user has been sorted into
   return sortingMessage;

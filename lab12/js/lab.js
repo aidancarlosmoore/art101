@@ -9,26 +9,26 @@ function sortingHat(str) {
   // Creates a variable that takes the remainder of the length of the user's name divided by 4
   let remainder = length % 4;
   if (remainder == 0) {
-    let sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination."
+    let sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
   }
   else if (remainder == 1) {
-    let sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning."
+    let sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning.";
   }
   else if (remainder == 2) {
-    let sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness."
+    let sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness.";
   }
   else if (remainder == 3) {
-    let sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness."
+    let sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
   }
-  return sortingMessage
+  return sortingMessage;
 }
 
 $("#button").click(function() {
   let name = $("#input").val();
-  console.log(name)
-  let house = sortingHat(name)
-  document.writeln(house)
-
+  console.log(name);
+  let house = sortingHat(name);
+  console.log(house)
+  $("#output").html("<h1>" + house + "</h1>");
 }); 
 
 // Constants

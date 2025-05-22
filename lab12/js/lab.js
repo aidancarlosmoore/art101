@@ -12,7 +12,9 @@ function sortingHat(str) {
   let sortingMessage = "";
   // Checks the possible values of the remainder one by one to sort the user into a Hogwarts house
   if (remainder == 0) {
+    // Updates the sorting message variable to match the house
     sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
+    // Outputs the sorting message in the house color
     $("#output").html("<h3>" + sortingMessage + "</h3>");
   }
   else if (remainder == 1) {
@@ -37,7 +39,7 @@ $("#button").click(function() {
   // Uses the user's inputted name as the argument in the sortingHat function, assigning it to a variable so it can be called again
   let house = sortingHat(name);
   console.log(house);
-  // Prints the user's sorting message in the output section of the HTML webpage.
+  // Calls the sortingHat function for the name variable, aka the user's inputted value
   house();
 }); 
 

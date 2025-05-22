@@ -7,8 +7,8 @@ function sortingHat(str) {
   // Creates a variable with the value of the length of the user's inputted name
   let length = str.length;
   // Creates a variable that takes the remainder of the length of the user's name divided by 4
-  let remainder = length % 4;\
-  let sortingMessage = ""
+  let remainder = length % 4;
+  let sortingMessage = "";
   if (remainder == 0) {
     let sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
   }

@@ -7,3 +7,9 @@
     border: solid 5px #FFFFFF;
     background-color: #FFB6C1;
   }
+
+h3 {
+    color: #FF6EC7;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 300%;
+  }  

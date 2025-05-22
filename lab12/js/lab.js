@@ -8,7 +8,9 @@ function sortingHat(str) {
   let length = str.length;
   // Creates a variable that takes the remainder of the length of the user's name divided by 4
   let remainder = length % 4;
+  // Creates an empty sortingMessage variable so that it can be updated in the conditional
   let sortingMessage = "";
+  // Checks the possible values of the remainder one by one to sort the user into a Hogwarts house
   if (remainder == 0) {
     sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
   }
@@ -21,15 +23,20 @@ function sortingHat(str) {
   else if (remainder == 3) {
     sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
   }
+  // Returns the sortingMessage regardless which house the user has been sorted into
   return sortingMessage;
 }
 
+// This button allows the user to enter their name and get sorted into a Hogwarts house by using the sortingHat function
 $("#button").click(function() {
+  // Assigning a variable to the input the user puts
   let name = $("#input").val();
   console.log(name);
+  // Uses the user's inputted name as the argument in the sortingHat function, assigning it to a variable so it can be called again
   let house = sortingHat(name);
   console.log(house);
-  $("#output").html("<h1>" + house + "</h1>");
+  // Prints the user's sorting message in the output section of the HTML webpage.
+  $("#output").html("<h3>" + house + "</h3>");
 }); 
 
 // Constants

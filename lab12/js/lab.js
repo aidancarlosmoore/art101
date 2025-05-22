@@ -13,19 +13,19 @@ function sortingHat(str) {
   // Checks the possible values of the remainder one by one to sort the user into a Hogwarts house
   if (remainder == 0) {
     sortingMessage = "Congratulations, you have been sorted into the Gryffindor house, whose students are known for their bravery, chivalry, and determination.";
-    $("#output").html("<h3>" + house + "</h3>");
+    $("#output").html("<h3>" + sortingMessage + "</h3>");
   }
   else if (remainder == 1) {
     sortingMessage = "Congratulations, you have been sorted into the Ravenclaw house, whose students are known for their intelligence, wit, and learning.";
-    $("#output").html("<h5>" + house + "</h3>");
+    $("#output").html("<h5>" + sortingMessage + "</h3>");
   }
   else if (remainder == 2) {
     sortingMessage = "Congratulations, you have been sorted into the Hufflepuff house, whose students are known for their loyalty, hardwork, and fairness.";
-    $("#output").html("<h6>" + house + "</h3>");
+    $("#output").html("<h6>" + sortingMessage + "</h3>");
   }
   else if (remainder == 3) {
     sortingMessage = "Congratulations, you have been sorted into the Slytherin house, whose students are known for for their ambition, cunning, and resourcefulness.";
-    $("#output").html("<h6>" + house + "</h3>");
+    $("#output").html("<h6>" + sortingMessage + "</h3>");
   }
 }
 

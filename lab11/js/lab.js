@@ -3,11 +3,7 @@
 // Date: 5/18/25
 
 // This imports a function from Lab 7 to be re-purposed.
-function getPlayerName() {
-  // This has the player write enter their name and gives a default value in case they put nothing
-  let userName = window.prompt("Please enter your name.", "Spencer Hastings");
-  console.log("User's name: ", userName);
-
+function getPlayerName(userName) {
   // TASK X: BONUS! This puts the player's name in lowercase so it can be sorted correctly
   let userNameCapitalized = userName.toLowerCase();
   console.log("User's name without capital letters: ", userName);
@@ -32,7 +28,7 @@ function getPlayerName() {
 // This creates a button that can be clicked.
 $("#sashay-away").click(function(){
   // This assigns a variable to the inputted value by the user.
-  const slayName = $("#slay-name").val();
+  let slayName = $("#slay-name").val();
 
   // This creates a variable so that when it is called, it will call the getPlayerName function and sort the slay-name id.
   let slayNameSorted = getPlayerName(slayName);
@@ -41,8 +37,6 @@ $("#sashay-away").click(function(){
   $("#output").html('<div class="text"><p>' + slayNameSorted + '</p></div>');
 
 });
-
-
 
 // Constants
 

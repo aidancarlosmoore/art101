@@ -3,7 +3,7 @@
 // Date: 5/29/25
 
 const ajaxPokemon = {
-  url: "https://pokeapi.co/api/v2/pokemon?limit=1000",
+  url: "https://pokeapi.co/api/v2/pokemon?limit=1302",
   // data: {},
   type: "GET",
   dataType: "json"
